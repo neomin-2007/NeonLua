@@ -13,6 +13,7 @@
 | 1.8.9  | ✅ Suportado |
 
 > 📌 Não há planejamento para versões mais recentes!
+> 📌 Há 3 scripts de teste para uso livre!
 
 ## 🛠 Recursos Principais
 
@@ -30,9 +31,9 @@ O plugin foi desenvolvido com foco em eficiência:
 
 ## 🖼️ Mostruário
 
-| ![1](https://imgur.com/blvIeA5.png) | ![2](https://imgur.com/onJeC7G.png) |
+| ![1](https://imgur.com/48UmofG.png) | ![2](https://imgur.com/774nINT.png) |
 |--------------------------------------|--------------------------------------|
-| ![3](https://imgur.com/W0794XY.png) | ![4](https://imgur.com/SJh0imm.png) |
+| ![3](https://imgur.com/SOMUuuI.png) | ![4](https://imgur.com/ynfOVE6.png) |
 
 ## 📥 Instalação
 
