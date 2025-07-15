@@ -1,0 +1,8 @@
+name: NeonLua
+version: 1.0
+main: de.neomin.neonlua.NeonLua
+description: Sistema de scripts em Lua.
+commands:
+  reloadluascript:
+    description: "Recarrega o script Lua"
+    permission: luamodding.reload
