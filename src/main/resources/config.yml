@@ -1,2 +1,4 @@
 active-scripts:
   - "join/main.lua"
+  - "chat/main.lua"
+  - "move/main.lua"

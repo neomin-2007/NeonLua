@@ -3,17 +3,23 @@ local main = {
     version = "1.0.0"
 }
 
-local function onPlayerJoin(event)
-    local player = event:getPlayer()
-    player:setWalkSpeed(0.5)
-    player:sendMessage("§eO jogador " .. player:getName() .. " entrou no servidor!")
-end
-
-print("§a[Join] Script de entrada")
+print("§a[Chat] Script de join")
 print("§a[Autor] Neomin")
 print("§a[Versão] " .. main["version"])
 
+local function onPlayerJoin(event)
+    local player = event:getPlayer()
+    event.setJoinMessage("§e" .. player:getName() .. " entrou no servidor.")
+end
+
+local function onPlayerQuit(event)
+    local player = event:getPlayer()
+    event.setQuitMessage("§e" .. player:getName() .. " saiu no servidor.")
+end
+
+
 return {
     main = main,
-    onPlayerJoin = onPlayerJoin
+    onPlayerJoin = onPlayerJoin,
+    onPlayerQuit = onPlayerQuit
 }
