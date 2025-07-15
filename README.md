@@ -13,7 +13,6 @@
 | 1.8.9  | ✅ Suportado |
 
 > 📌 Não há planejamento para versões mais recentes!
-> 📌 Há 3 scripts de teste para uso livre!
 
 ## 🛠 Recursos Principais
 
