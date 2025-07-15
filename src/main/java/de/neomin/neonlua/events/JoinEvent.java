@@ -32,8 +32,6 @@ public class JoinEvent implements Listener {
         luaEvent.set("getPlayer", getPlayerFunction(event));
         luaEvent.set("getJoinMessage", getJoinMessageFunction(event));
         luaEvent.set("setJoinMessage", setJoinMessage(event));
-        luaEvent.set("getServer", plugin.getNeonFunctions().createServerFunction());
-        luaEvent.set("getTags", plugin.getNeonFunctions().createTagsFunction());
 
         luaEvent.set("getCurrentMillis", new ZeroArgFunction() {
             @Override

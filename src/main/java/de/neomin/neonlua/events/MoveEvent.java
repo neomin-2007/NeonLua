@@ -33,8 +33,6 @@ public class MoveEvent implements Listener {
         LuaValue luaEvent = LuaValue.tableOf();
 
         luaEvent.set("getPlayer", getPlayerFunction(event));
-        luaEvent.set("getServer", plugin.getNeonFunctions().createServerFunction());
-        luaEvent.set("getTags", plugin.getNeonFunctions().createTagsFunction());
         luaEvent.set("getFrom", getFromFunction(event));
         luaEvent.set("getTo", getToFunction(event));
 

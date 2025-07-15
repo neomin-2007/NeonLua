@@ -34,8 +34,6 @@ public class QuitEvent implements Listener {
         luaEvent.set("getPlayer", getPlayerFunction(event));
         luaEvent.set("getQuitMessage", getQuitMessageFunction(event));
         luaEvent.set("setQuitMessage", setQuitMessage(event));
-        luaEvent.set("getServer", plugin.getNeonFunctions().createServerFunction());
-        luaEvent.set("getTags", plugin.getNeonFunctions().createTagsFunction());
 
         luaEvent.set("getCurrentMillis", new ZeroArgFunction() {
             @Override

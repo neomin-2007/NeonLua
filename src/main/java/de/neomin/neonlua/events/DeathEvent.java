@@ -33,8 +33,6 @@ public class DeathEvent implements Listener {
         luaEvent.set("getPlayer", getPlayerFunction(event));
         luaEvent.set("getDeathMessage", getDeathMessageFunction(event));
         luaEvent.set("setDeathMessage", setDeathMessage(event));
-        luaEvent.set("getServer", plugin.getNeonFunctions().createServerFunction());
-        luaEvent.set("getTags", plugin.getNeonFunctions().createTagsFunction());
 
         luaEvent.set("getCurrentMillis", new ZeroArgFunction() {
             @Override

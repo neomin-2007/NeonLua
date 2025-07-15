@@ -32,6 +32,8 @@ public class NeonLoader {
         }
 
         Globals globals = JsePlatform.standardGlobals();
+        globals.set("Server", plugin.getNeonFunctions().createServerFunction());
+        globals.set("Tags", plugin.getNeonFunctions().createTagsFunction());
         globals.set("Material", CoerceJavaToLua.coerce(Material.class));
         globals.set("EntityType", CoerceJavaToLua.coerce(EntityType.class));
         globals.set("itemBuilder", plugin.getNeonFunctions().createItemBuilder());

@@ -33,8 +33,6 @@ public class AsyncPlayerChatEvent implements Listener {
         luaEvent.set("getFormat", getFormatFunction(event));
         luaEvent.set("setCancelled", setCancelledFunction(event));
         luaEvent.set("isCancelled", isCancelledFunction(event));
-        luaEvent.set("getServer", plugin.getNeonFunctions().createServerFunction());
-        luaEvent.set("getTags", plugin.getNeonFunctions().createTagsFunction());
 
         luaEvent.set("getCurrentMillis", new ZeroArgFunction() {
             @Override
