@@ -32,7 +32,9 @@ O plugin foi desenvolvido com foco em eficiência:
 
 | ![1](https://imgur.com/48UmofG.png) | ![2](https://imgur.com/774nINT.png) |
 |--------------------------------------|--------------------------------------|
-| ![3](https://imgur.com/SOMUuuI.png) | ![4](https://imgur.com/ynfOVE6.png) |
+| ![3](https://imgur.com/SOMUuuI.png) | ![4](https://imgur.com/ynfOVE6.png) ||
+|--------------------------------------|--------------------------------------|
+| ![3](https://imgur.com/dNaj97u.png) | ![4](https://imgur.com/LwnVmAr.png) |
 
 ## 📥 Instalação
 
